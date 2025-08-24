@@ -1,0 +1,5 @@
+The datasheet for LCD module is not correct:
+
+The backlight module is NOT PCA9633DP2...
+It is infact a STM8 microcontroller with address: 0x2D << 1
+(it works as an I2C slave)
